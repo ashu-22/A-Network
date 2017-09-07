@@ -1,0 +1,59 @@
+* Adding network API as a submodule
+
+* ignoring dirty submodule
+
+* building landing page template directory into network-api subfolder
+
+* updating network-api
+
+* formatting tweak
+
+* updating network-api submodule
+
+* new run command without docker
+
+* fixing api start task
+
+* building into networkapi instead of dest
+
+* consolidiating to just one server
+
+* updating network-api
+
+* no base url needed
+
+* adding requirements.txt to root for deployment
+
+* updating submodule
+
+* add a heroku-postbuild task for the nodejs buildpack, add a Procfile (#630)
+
+* troubleshoot procfile
+
+* troubleshoot procfile
+
+* removing network-api submodule
+
+* adding all network-api files
+
+* Build on Heroku instead of Jenkins (#655)
+
+* Remove Travis build URL settings and add Heroku build settings (#662)
+
+* Add in Heroku token settings, fix lint issues (#664)
+
+* requests was form-encoding the payload - force it to json encode it. return early if there's an error
+
+* Properly access dict attributes
+
+* only trigger a build if none are pending, to work around concurrency … (#670)
+
+* only trigger a build if none are pending, to work around concurrency issues with the debounce and throttle code
+
+* Update settings.py
+
+* fix lint issues
+
+* remove old format call
+
+* classic JS programmer mistake while accessing a dict
